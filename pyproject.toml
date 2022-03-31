@@ -1,0 +1,8 @@
+[tool.black]
+  py39 = true
+  line-length = 100
+  skip-string-normalization = true
+  exclude = '(^\..+|local_cache)'
+
+[tool.isort]
+  profile = "black"
