@@ -1,0 +1,19 @@
+name: mypy
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install nix
+        run: nix/install.sh
+
+      - name: Build nix environment
+        run: nix-build nix

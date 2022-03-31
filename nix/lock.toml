@@ -1,0 +1,9 @@
+[mach-nix]
+ref = "3.4.0"
+rev = "fe5255e6fd8df57e9507b7af82fc59dda9e9ff2b"
+sha256 = "19vh5qfqlml22d6mpi34nnbh71i259sh223l4dr4axar3byy1408"
+
+[nixpkgs]
+ref = "554d2d8aa25b6e583575459c297ec23750adb6cb"
+rev = "554d2d8aa25b6e583575459c297ec23750adb6cb"
+sha256 = "01yfqslnkyrfb5yjfablhvw830iw0za3mab4n03a0ldyq5ac6wh1"
